@@ -1,0 +1,83 @@
+body{
+	background-color: rgb(7, 66, 96);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	color: aliceblue;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-decoration: underline;
+	box-shadow: black 1rem 1rem 0.5rem ;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container{
+display: flex;
+flex-direction: column;
+align-items: start;
+background-color: rgb(20, 138, 138);
+height: fit-content;
+width: 80%;
+padding: 2rem;
+border-radius: 0.75rem;
+box-shadow: black 15px 10px 5px ;
+/* text-wrap: nowrap; */
+font-size: 1em;
+margin-top: 3rem;
+word-break: wrap;
+}
+#container #look{
+width: 90%;
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+gap: 0.75rem;
+}
+
+#container #look input{
+border: none;
+height: 2.75rem;
+border-radius: 0.75rem;
+width: 70%;
+font-size: 1.25rem;
+text-align: center;
+margin-left: 2.5rem;
+margin-bottom: 2.5rem;
+}
+#container #look button{
+border-radius: 0.75rem;
+background-color: rgb(57, 57, 146);
+color: azure;
+height: 2.75rem;
+width: 20%;
+border: none;
+font-size: 1.25rem;
+cursor: pointer;
+margin-bottom: 2.5rem;
+}
+#container #photos{
+width: 80%;
+display: flex;
+flex-direction: row;
+gap: 3.5rem;
+margin-top: 1.875rem;
+justify-content: center;
+align-items: center;
+}
+#container #photos #flag{
+height: auto;
+width: 40%;
+}
+#container #photos #coa{
+height: auto;
+width: 40%;
+}
+#container .hidden {
+    display: none;
+}
+
